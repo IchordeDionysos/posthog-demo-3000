@@ -1,0 +1,7 @@
+{
+  "name": "PostHog Demo",
+  "description": "PostHog is the only all-in-one platform for product analytics, feature flags, session replays, experiments, and surveys that's built for developers.",
+  "repository": "https://github.com/posthog/posthog demo-3000",
+  "logo": "https://posthog.com/brand/posthog-logo.svg",
+  "keywords": ["product-analytics", "demo", "saas"]
+}
