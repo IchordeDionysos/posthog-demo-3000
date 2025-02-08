@@ -3,5 +3,15 @@
   "description": "PostHog is the only all-in-one platform for product analytics, feature flags, session replays, experiments, and surveys that's built for developers.",
   "repository": "https://github.com/posthog/posthog demo-3000",
   "logo": "https://posthog.com/brand/posthog-logo.svg",
-  "keywords": ["product-analytics", "demo", "saas"]
+  "keywords": ["product-analytics", "demo", "saas"],
+  "env": {
+    "PH_HOST": {
+      "description": "The PostHog host to us, e g. https://<eu or us>.i.posthog.com",
+      "required": true
+    },
+    "PH_PROJECT_KEY": {
+      "description": "The PostHog project key to use",
+      "required": true
+    }
+  }
 }
